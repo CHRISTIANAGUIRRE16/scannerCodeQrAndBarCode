@@ -1,0 +1,24 @@
+name: qr_barcode_app
+description: Flutter application for QR and barcode scanning and generation.
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  qr_code_scanner: ^1.0.1
+  barcode_widget: ^2.0.0
+  flutter_barcode_scanner: ^2.0.0
+  qr_flutter: ^4.0.0
+  url_launcher: ^6.1.11
+  barcode_scan: ^3.0.1
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
